@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    transition: all 0.3s;
 }
 *::before, *::after {
     box-sizing: border-box;
+    transition: all 0.5s;
 }
 body {
     height: 100vh;
@@ -20,6 +22,7 @@ body {
     height: 50%;
 }
 .preview-wrapper {
+    min-width: 390px;
     flex: 1;
     height: 50%;
     background-color: #ffe600;
@@ -35,8 +38,6 @@ body {
     height: 200px;
     position: relative;
 }
-
-
 .actions {
     position: absolute;
     right: 0;
@@ -46,7 +47,8 @@ body {
 }
 .actions>button {
     margin: 10px;
-    background: #ddd;
+    /* background: #ddd; */
+    background: #eee;
     padding: 5px 10px;
     border: none;
     cursor: pointer;

@@ -1,5 +1,5 @@
 !function(){
-    var duration = 50
+    var duration = 10
     function writeCode(prefix, code, fn){
         let container = document.querySelector('#code')
         let styleTage = document.querySelector('#styleTag')
@@ -131,13 +131,13 @@
             .siblings('.active').removeClass('active')
         switch(speed){
             case 'slow':
-                duration = 100
-                break
-            case 'normal':
                 duration = 50
                 break
-            case 'fast':
+            case 'normal':
                 duration = 10
+                break
+            case 'fast':
+                duration = 5
                 break
         }
     })
