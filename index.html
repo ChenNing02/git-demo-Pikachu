@@ -10,31 +10,60 @@
     <style id="styleTag"></style>
 </head>
 <body>
-    <div class="code-wrapper">
-        <pre id="code"></pre>
-    </div>
-    <div class="preview-wrapper">
-        <div class="preview">
-            <div class="wrapper">
-                <div class="nose"></div>
-                <div class="eye left"></div>
-                <div class="eye right"></div>
-                <div class="face left"></div>
-                <div class="face right"></div>
-                <div class="lowerLip-wrapper">
-                    <div class="lowerLip"></div>
+    <div class="main">
+        <div class="code-wrapper">
+            <pre id="code"></pre>
+        </div>
+        <div class="preview-wrapper">
+            <div class="preview">
+                <div class="wrapper">
+                    <div class="nose"></div>
+                    <div class="eye left"></div>
+                    <div class="eye right"></div>
+                    <div class="face left"></div>
+                    <div class="face right"></div>
+                    <div class="lowerLip-wrapper">
+                        <div class="lowerLip"></div>
+                    </div>
+                    <div class="upperLip left"></div>
+                    <div class="upperLip right"></div>
                 </div>
-                <div class="upperLip left"></div>
-                <div class="upperLip right"></div>
             </div>
         </div>
+        <div class="actions" id="tool">
+            <button class="active">
+                <span>开始</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#i-time-out"></use>
+                </svg>
+            </button>
+            <button>
+                <span>慢速</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#i-ring"></use>
+                </svg>
+            </button>
+            <button class="active">
+                <span>中速</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#i-run"></use>
+                </svg>
+            </button>
+            <button>
+                <span>快速</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#i-ring"></use>
+                </svg>
+            </button>
+            <button>
+                <span>结束</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#i-end"></use>
+                </svg>
+            </button>
+        </div>
     </div>
-    <div class="actions">
-        <button data-speed="slow">慢速</button>
-        <button data-speed="normal" class="active">中速</button>
-        <button data-speed="fast">快速</button>
-    </div>
-    <script src="./js/jquery-3.4.1.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="//at.alicdn.com/t/font_1886287_8ea6vgaov17.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 </html>
