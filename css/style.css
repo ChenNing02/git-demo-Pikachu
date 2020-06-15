@@ -15,6 +15,7 @@ body {
 #code {
     height: 100%;
     overflow: hidden;
+    font-family: 'Consolas';
 }
 .code-wrapper {
     padding: 10px;
