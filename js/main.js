@@ -50,13 +50,13 @@ openClick.onclick = () => {
     openClass()
 }
 slow.onclick = () => {
-    duration = 20
+    duration = 30
     removeSpeedClass()
     slow.classList.add('active')
     slow.querySelector('use').setAttribute('xlink:href', '#i-run')
 }
 normal.onclick = () => {
-    duration = 5
+    duration = 10
     removeSpeedClass()
     normal.classList.add('active')
     normal.querySelector('use').setAttribute('xlink:href', '#i-run')
