@@ -4,8 +4,8 @@
 
 预览链接
 
-- GitHub：https://chenning02.gitee.io/pikachu/index.html
-- 码云：https://chenning02.github.io/git-demo-Pikachu/index.html
+- 码云：https://chenning02.gitee.io/pikachu/index.html
+- GitHub：https://chenning02.github.io/git-demo-Pikachu/index.html
 
 预览效果
 
