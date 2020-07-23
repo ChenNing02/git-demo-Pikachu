@@ -2,14 +2,14 @@
 
 使用原生JS 完成的一个自动画皮卡丘案例
 
-预览链接
+## 预览链接
 
-- 码云：https://chenning02.gitee.io/pikachu/index.html
-- GitHub：https://chenning02.github.io/git-demo-Pikachu/index.html
+- 国内（码云）：https://lv1024.gitee.io/pikachu/index.html
+- 国外（GitHub）：https://lv1024.github.io/pikachu/index.html
 
-预览效果
+## 图示
 
-![示例图片](https://chenning02.github.io/Document/images/git-demo-Pikachu.jpg)
+![示例图片](./img/demo-pikachu.jpg)
 
 
 
