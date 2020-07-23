@@ -4,8 +4,8 @@
 
 ## 预览链接
 
-- 国内（码云）：https://lv1024.gitee.io/pikachu/index.html
-- 国外（GitHub）：https://lv1024.github.io/pikachu/index.html
+- 国内（码云）：https://uphg.gitee.io/pikachu/index.html
+- 国外（GitHub）：https://uphg.github.io/pikachu/index.html
 
 ## 图示
 
